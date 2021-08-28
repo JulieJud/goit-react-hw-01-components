@@ -18,7 +18,7 @@ export const SocialCard  = ({ name, tag, location, avatar, stats }) => {
       <ul className={css.stats}>
         <li>
           <span className={css.label}>Followers</span>
-         /*<span className={css.quantity}>{stats.followers}</span>
+         <span className={css.quantity}>{stats.followers}</span>
         </li>
         <li>
           <span className={css.label}>Views</span>
