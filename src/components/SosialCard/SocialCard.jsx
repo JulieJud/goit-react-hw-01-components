@@ -4,7 +4,7 @@ import css from './SocialCard.module.css';
 import PropTypes from 'prop-types';
 
 
-export const SocialCard  = ({ name, tag, location, avatar, stats }) => {
+function SocialCard ({ name, tag, location, avatar, stats }) {
  
   return (
     <div className={css.profile}>
@@ -47,7 +47,7 @@ SocialCard.propTypes = {
   }).isRequired,
 };
 
-
+export default SocialCard;
 
 
 

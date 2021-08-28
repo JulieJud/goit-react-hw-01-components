@@ -1,12 +1,18 @@
 
 import 'App.css';
-import { SocialCard } from './SosialCard/SocialCard';
+import SocialCard  from './SosialCard/SocialCard';
 import user from '../date/user.json'
 
-export const App = () => {
+ const App = () => {
   return <div>
-    <SocialCard user={user} />
+     <SocialCard
+        avatar={user.avatar}
+        name={user.name}
+        tag={user.tag}
+        location={user.location}
+        stats={user.stats}
+      />
   </div>;
 };
 
-
+export default App;
