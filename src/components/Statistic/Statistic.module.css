@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
+  border: 1px solid seagreen;
 }
 
 .title {
