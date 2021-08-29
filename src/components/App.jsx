@@ -15,7 +15,8 @@ function App () {
         location={user.location}
       stats={user.stats} />
     
-   <Statistic title="Upload stats" stats={statisticData} />;
+    <Statistic title="Upload stats" stats={statisticData} />;
+       <Statistic stats={statisticData} />
 
   </div>;
 };
