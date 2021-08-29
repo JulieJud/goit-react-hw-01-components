@@ -1,7 +1,7 @@
 
-import 'App.css';
+
 import SocialCard  from './SosialCard/SocialCard';
-import user from '../date/user.json'
+import user from '../upcomingDate/user.json'
 
 function App () {
   return <div>
