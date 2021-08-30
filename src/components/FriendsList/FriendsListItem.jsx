@@ -1,5 +1,4 @@
 
-
 import css from './FriendsListItem.module.css';
 
 import PropTypes from 'prop-types';
